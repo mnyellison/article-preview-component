@@ -1,0 +1,12 @@
+/* CONFIGURAÇÕES GLOBAIS */
+@import url("/css/base/tokens.css");
+@import url("/css/base/reset.css");
+
+/* ESTRUTURA DO LAYOUT */
+@import url("/css/layouts/main-layout.css");
+
+/* COMPONENTES REUTILIZÁVEIS */
+@import url("/css/components/card.css");
+@import url("/css/components/profile.css");
+@import url("/css/components/share-button.css");
+@import url("/css/components/share-toast.css");

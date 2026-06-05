@@ -1,0 +1,10 @@
+body {
+  font-family: var(--font-family-main);
+  font-size: var(--text-preset-2);
+  background-color: var(--color-grey-200);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: var(--spacing-300);
+}

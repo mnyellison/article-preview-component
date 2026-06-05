@@ -1,0 +1,26 @@
+:root {
+  --color-white: #ffffff;
+
+  --color-grey-900: #48556a;
+  --color-grey-500: #6e8098;
+  --color-grey-400: #9daec2;
+  --color-grey-200: #ecf2f8;
+
+  --font-family-main: "Manrope", sans-serif;
+
+  --font-weight-bold: 700;
+  --font-weight-medium: 500;
+
+  --text-preset-1: 1.25rem; /* 20px */
+  --text-preset-2: 0.8125rem; /* 13 */
+
+  --spacing-2000: 10rem; /* 160px */
+  --spacing-1300: 6.5rem; /* 104px */
+  --spacing-800: 4rem; /* 64px  */
+  --spacing-700: 3.5rem; /* 56px  */
+  --spacing-600: 3rem; /* 48px  */
+  --spacing-500: 2.5rem; /* 40px  */
+  --spacing-400: 2rem; /* 32px  */
+  --spacing-300: 1.5rem; /* 24px  */
+  --spacing-200: 1rem; /* 16px  */
+}
