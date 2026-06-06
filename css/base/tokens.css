@@ -12,15 +12,17 @@
   --font-weight-medium: 500;
 
   --text-preset-1: 1.25rem; /* 20px */
-  --text-preset-2: 0.8125rem; /* 13 */
+  --text-preset-2: 0.8125rem; /* 13px */
 
   --spacing-2000: 10rem; /* 160px */
   --spacing-1300: 6.5rem; /* 104px */
-  --spacing-800: 4rem; /* 64px  */
-  --spacing-700: 3.5rem; /* 56px  */
-  --spacing-600: 3rem; /* 48px  */
-  --spacing-500: 2.5rem; /* 40px  */
-  --spacing-400: 2rem; /* 32px  */
-  --spacing-300: 1.5rem; /* 24px  */
-  --spacing-200: 1rem; /* 16px  */
+  --spacing-900: 4rem; /* 64px  */
+  --spacing-800: 3.5rem; /* 56px  */
+  --spacing-700: 3rem; /* 48px  */
+  --spacing-600: 2.5rem; /* 40px  */
+  --spacing-500: 2rem; /* 32px  */
+  --spacing-400: 1.875rem; /* 30px */
+  --spacing-300: 1.5rem; /* 24px */
+  --spacing-200: 1.125rem; /* 18px */
+  --spacing-100: 1rem; /* 16px  */
 }

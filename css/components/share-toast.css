@@ -1,0 +1,41 @@
+.share-toast {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-grey-900);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-300);
+  padding-left: var(--spacing-400);
+}
+
+.share-toast span {
+  color: var(--color-grey-400);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.share-social-media {
+  display: flex;
+  gap: var(--spacing-100);
+}
+
+.share-social-media a {
+  color: var(--color-white);
+  font-size: 1.25rem;
+  transition:
+    transform 0.2s ease,
+    color 0.25s ease;
+}
+
+.share-social-media a:focus-visible {
+  outline: 2px solid var(--color-grey-400);
+  outline-offset: 1px;
+  border-radius: 50%;
+}
+
+.share-social-media a:hover {
+  transform: scale(1.15);
+}

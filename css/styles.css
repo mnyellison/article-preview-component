@@ -10,3 +10,6 @@
 @import url("/css/components/profile.css");
 @import url("/css/components/share-button.css");
 @import url("/css/components/share-toast.css");
+
+/* CLASSES UTILITÁRIAS */
+@import url("/css/utilities.css");

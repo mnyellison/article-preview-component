@@ -8,3 +8,8 @@ body {
   min-height: 100vh;
   padding: var(--spacing-300);
 }
+
+.card-container {
+  width: 100%;
+  max-width: 20.4375rem;
+}
