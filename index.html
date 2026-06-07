@@ -28,52 +28,65 @@
     <script src="/js/script.js" defer></script>
   </head>
   <body>
-    <main class="card-container">
-      <img
-        src="/images/drawers.jpg"
-        alt="Two rooms and a vase with flowers under a green table."
-        class="card-drawers"
-      />
+    <main class="card">
+      <div class="card-image-container">
+        <img
+          src="/images/drawers.jpg"
+          alt="Two rooms and a vase with flowers under a green table."
+          class="card-image"
+        />
+      </div>
 
-      <article class="card-info">
-        <h1>
-          Shift the overall look and feel by adding these wonderful touches to
-          furniture in your home
-        </h1>
-        <p>
-          Ever been in a room and felt like something was missing? Perhaps it
-          felt slightly bare and uninviting. I’ve got some simple tips to help
-          you make any room feel complete.
-        </p>
+      <div class="card-content">
+        <div class="card-infos">
+          <h1>
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
+          </h1>
+          <p>
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare and uninviting. I’ve got some simple tips to help
+            you make any room feel complete.
+          </p>
+        </div>
 
         <div class="card-group">
           <div class="card-profile">
             <img
               src="/images/avatar-michelle.jpg"
               alt="Michelle Appleton avatar"
-              class="card-avatar"
             />
-
-            <div class="card-post">
-              <span>Michelle Appleton</span>
+            <div>
+              <h2>Michelle Appleton</h2>
               <time datetime="2020-06-12">28 Jun 2020</time>
             </div>
           </div>
 
-          <div class="share-toast hidden">
-            <span>Share</span>
-            <div class="share-social-media">
-              <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
-              <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-              <a href="#"><i class="fa-brands fa-pinterest"></i></a>
-            </div>
-          </div>
-
-          <button id="share-button" aria-label="Share button.">
+          <button id="button-share">
             <i class="fa-solid fa-share"></i>
           </button>
         </div>
-      </article>
+      </div>
+
+      <div class="share-container hidden">
+        <div class="share-content">
+          <h2>Share</h2>
+          <div class="share-social-media">
+            <a href="#">
+              <img src="/images/icon-facebook.svg" alt="Facebook share icon" />
+            </a>
+            <a href="#">
+              <img src="/images/icon-twitter.svg" alt="Twitter share icon" />
+            </a>
+            <a href="#">
+              <img
+                src="/images/icon-pinterest.svg"
+                alt="Pinterest share icon"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
     </main>
   </body>
 </html>

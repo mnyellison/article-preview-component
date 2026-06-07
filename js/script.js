@@ -1,20 +1,7 @@
-const cardGroup = document.querySelector(".card-group");
-const cardProfile = document.querySelector(".card-profile");
-const shareToast = document.querySelector(".share-toast");
-const shareButton = document.getElementById("share-button");
+const buttonShare = document.getElementById("button-share");
+const shareContainer = document.querySelector(".share-container");
 
-shareButton.addEventListener("click", () => {
-  cardProfile.classList.toggle("hidden");
-  shareToast.classList.toggle("hidden");
-  shareButton.classList.toggle("active");
-});
-
-document.addEventListener("click", (event) => {
-  if (!shareToast.classList.contains("hidden")) {
-    if (!cardGroup.contains(event.target)) {
-      shareButton.classList.remove("active");
-      shareToast.classList.add("hidden");
-      cardProfile.classList.remove("hidden");
-    }
-  }
+buttonShare.addEventListener("click", () => {
+  buttonShare.classList.toggle("active");
+  shareContainer.classList.toggle("hidden");
 });

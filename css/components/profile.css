@@ -3,8 +3,6 @@
   align-items: center;
   justify-content: space-between;
   position: relative;
-  min-height: 4.5rem;
-  padding: 0 var(--spacing-400) var(--spacing-200);
 }
 
 .card-profile {
@@ -13,22 +11,24 @@
   gap: var(--spacing-100);
 }
 
-.card-profile .card-avatar {
+.card-profile img {
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
-  width: 2.5rem;
 }
 
-.card-post span {
+.card-profile div h2 {
   font-weight: var(--font-weight-bold);
-  color: var(--color-grey-900);
+  font-size: var(--text-preset-2);
   line-height: 1.4;
   letter-spacing: 0.12px;
+  color: var(--color-grey-900);
   display: block;
 }
 
-.card-post time {
+.card-profile div time {
   font-weight: var(--font-weight-medium);
-  color: var(--color-grey-400);
-  line-height: var(1.4);
+  line-height: 1.4;
   letter-spacing: 0.12px;
+  color: var(--color-grey-400);
 }

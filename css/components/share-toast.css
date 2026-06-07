@@ -1,41 +1,51 @@
-.share-toast {
+.share-container {
+  background-color: var(--color-grey-900);
+  color: var(--color-grey-400);
+  padding: 28px 30px;
+  width: 100%;
+  border-radius: 0 0 10px 10px;
   position: absolute;
   left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: var(--color-grey-900);
+  bottom: 0;
+}
+
+.share-content {
   display: flex;
   align-items: center;
   gap: var(--spacing-300);
-  padding-left: var(--spacing-400);
 }
 
-.share-toast span {
-  color: var(--color-grey-400);
+.share-content h2 {
+  font-weight: var(--font-weight-medium);
+  font-size: var(--text-preset-2);
+  line-height: 1.4;
+  letter-spacing: 2.5px;
   text-transform: uppercase;
-  letter-spacing: 5px;
 }
 
 .share-social-media {
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: var(--spacing-100);
 }
 
 .share-social-media a {
-  color: var(--color-white);
-  font-size: 1.25rem;
-  transition:
-    transform 0.2s ease,
-    color 0.25s ease;
+  text-decoration: none;
 }
 
-.share-social-media a:focus-visible {
-  outline: 2px solid var(--color-grey-400);
-  outline-offset: 1px;
-  border-radius: 50%;
+.share-social-media a img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .share-social-media a:hover {
-  transform: scale(1.15);
+  transform: scale(1.1);
+}
+
+.share-social-media a:focus-visible {
+  outline: 2px solid var(--color-white);
+  outline-offset: 3px;
+  border-radius: 3px;
 }
