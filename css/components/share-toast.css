@@ -49,3 +49,39 @@
   outline-offset: 3px;
   border-radius: 3px;
 }
+
+/* RESPONSIVIDADE (TABLET) */
+@media (min-width: 768px) {
+  .share-container {
+    position: absolute;
+    width: max-content;
+    border-radius: 10px;
+    padding: 18px 38px;
+    bottom: 106px;
+    left: 92%;
+    transform: translateX(-50%);
+    right: auto;
+    z-index: 50;
+    box-shadow: 0px 10px 10px rgba(201, 213, 225, 0.503415);
+  }
+
+  /* PONTA DO BALÃO */
+  .share-container::after {
+    content: "";
+    position: absolute;
+    bottom: -6px; /* Metade do tamanho do elemento para ficar metade para dentro, metade para fora */
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg); /* centraliza e gira 45 graus */
+    width: 24px;
+    height: 24px;
+    background-color: var(--color-grey-900);
+    z-index: -1;
+  }
+}
+
+/* RESPONSIVIDADE (DESKTOP) */
+@media (min-width: 1200px) {
+  .share-container {
+    bottom: 96px;
+  }
+}
